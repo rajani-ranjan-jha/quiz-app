@@ -6,8 +6,6 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 export const setApiKey = (key) => {
     localStorage.setItem("GEMINI_API_KEY", key);
-    // Reload to apply might be needed or just re-instantiate, 
-    // but for now simple reload or just let the user retry
 };
 
 export const generateQuiz = async (topic, count = 5, difficulty = "Medium", apiKey = null) => {
@@ -41,12 +39,12 @@ export const generateQuiz = async (topic, count = 5, difficulty = "Medium", apiK
         const response = await result.response;
         const text = response.text();
         
-        // Cleanup potential markdown
+        
         const cleanedText = text.replace(/```json/g, "").replace(/```/g, "").trim();
         
         const questions = JSON.parse(cleanedText);
         
-        // Basic validation
+        
         if (!Array.isArray(questions)) throw new Error("Invalid format received from AI");
             
         return questions;

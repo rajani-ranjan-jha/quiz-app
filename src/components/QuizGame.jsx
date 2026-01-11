@@ -85,7 +85,7 @@ const QuizGame = ({ questions, onFinish }) => {
                                 stateClass = "bg-white/5 border-white/5 opacity-50";
                             }
                         } else if (selectedOption === option) {
-                            stateClass = "bg-blue-500/20 border-blue-500 text-white"; // Selected state before check (though we check immediately here)
+                            stateClass = "bg-blue-500/20 border-blue-500 text-white";
                         }
 
                         return (
