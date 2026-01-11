@@ -25,7 +25,7 @@ function App() {
         setView('QUIZ');
       }
     } catch (e) {
-      throw e; // re-throw to be handled by Home component
+      throw e; 
     }
   };
 
@@ -54,12 +54,9 @@ function App() {
     setGameData(null);
   };
 
-  const restartQuiz = () => {
-    goHome();
-  };
 
   return (
-    <div className="p-20 min-h-screen w-full text-white font-sans flex items-center justify-center">
+    <div className="p-20 pt-0 min-h-screen w-full text-white font-sans flex items-center justify-center">
 
       {view === 'HOME' && (
         <Home
@@ -80,7 +77,6 @@ function App() {
           score={gameData.score}
           total={gameData.total}
           history={gameData.history}
-          onRestart={restartQuiz}
           onHome={goHome}
         />
       )}

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Trophy, Home, RotateCcw, Check, X } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
-const Result = ({ score, total, history, onRestart, onHome }) => {
+const Result = ({ score, total, history, onHome }) => {
     const percentage = Math.round((score / total) * 100);
 
     useEffect(() => {
@@ -40,7 +40,7 @@ const Result = ({ score, total, history, onRestart, onHome }) => {
                 <h2 className="text-4xl font-bold text-white mb-2">{percentage}%</h2>
                 <p className="text-blue-200 text-lg mb-6">You got {score} out of {total} questions correct</p>
 
-                <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-indigo-300 mb-8">
+                <div className="text-2xl font-bold text-white mb-8">
                     {getFeedback()}
                 </div>
 
@@ -50,12 +50,6 @@ const Result = ({ score, total, history, onRestart, onHome }) => {
                         className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-medium transition-all flex items-center gap-2"
                     >
                         <Home size={18} /> Home
-                    </button>
-                    <button
-                        onClick={onRestart}
-                        className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold transition-all shadow-lg hover:shadow-blue-500/30 flex items-center gap-2"
-                    >
-                        <RotateCcw size={18} /> Review & Restart
                     </button>
                 </div>
             </div>
@@ -67,7 +61,7 @@ const Result = ({ score, total, history, onRestart, onHome }) => {
                     <div key={idx} className={`bg-black/20 rounded-xl p-4 border border-white/5 ${item.isCorrect ? 'border-l-4 border-l-green-500' : 'border-l-4 border-l-red-500'}`}>
                         <div className="flex justify-between items-start gap-4">
                             <div className="flex-1">
-                                <p className="text-white font-medium text-lg mb-2">{item.question}</p>
+                                <p className="text-white font-medium text-lg mb-2">({idx+1}). {item.question}</p>
 
                                 <div className="grid gap-2 text-sm">
                                     <div className={`flex items-center gap-2 ${item.isCorrect ? 'text-green-300' : 'text-red-300 line-through opacity-75'}`}>

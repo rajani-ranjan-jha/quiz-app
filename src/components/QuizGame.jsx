@@ -68,8 +68,8 @@ const QuizGame = ({ questions, onFinish }) => {
                     {currentQuestion.category}
                 </span>
 
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 leading-relaxed">
-                    {currentQuestion.question}
+                <h2 className="text-2xl md:text-3xl font-semibold text-white mb-5 ">
+                    Q({currentIndex + 1}) : {currentQuestion.question}
                 </h2>
 
                 <div className="space-y-3">

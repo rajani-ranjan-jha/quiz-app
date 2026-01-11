@@ -136,7 +136,7 @@ const Home = ({ onStart, onNavigateHistory }) => {
                         >
                             {isGenerating ? (
                                 <>
-                                    <Loader2 className="animate-spin" /> Generating...
+                                    <Loader2 className="animate-spin" /> Generating. Please Wait...
                                 </>
                             ) : (
                                 <>
