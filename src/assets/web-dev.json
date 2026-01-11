@@ -1,0 +1,403 @@
+
+[
+  {
+    "question_id": 1,
+    "question": "According to the sources, which unit covers Web Development Basics, HTML, CSS, Web servers, Shell - UNIX CLI, and Version control - Git & Github?",
+    "options": ["Unit II", "Unit I", "Unit III", "Unit IV"],
+    "correct_answer": "Unit I",
+    "category": "Course Structure",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 2,
+    "question": "What is the purpose of the `<h1>` to `<h6>` tags in HTML?",
+    "options": ["To define paragraphs", "To create ordered lists", "To use different sub-headings", "To insert images"],
+    "correct_answer": "To use different sub-headings",
+    "category": "HTML",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 3,
+    "question": "In HTML forms, which control allows the user to choose multiple options from a given set?",
+    "options": ["Radio button", "Text field", "Checkbox", "Submit button"],
+    "correct_answer": "Checkbox",
+    "category": "HTML Forms",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 4,
+    "question": "What is the primary purpose of jQuery as described in the sources?",
+    "options": ["Server-side scripting", "Database management", "Simplifying client-side scripting of HTML", "Defining relational schemas"],
+    "correct_answer": "Simplifying client-side scripting of HTML",
+    "category": "jQuery",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 5,
+    "question": "What does AJAX stand for, according to the sources?",
+    "options": ["Asynchronous JavaScript and XML", "Advanced JSON and XHTML", "Automated Java and XML", "Asynchronous JavaScript and JSON"],
+    "correct_answer": "Asynchronous JavaScript and XML",
+    "category": "AJAX",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 6,
+    "question": "What data format is described as containing data in the form of key/value pairs, where keys are strings and values are JSON types?",
+    "options": ["XML", "HTML", "JSON", "CSV"],
+    "correct_answer": "JSON",
+    "category": "JSON",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 7,
+    "question": "According to the sources, what is a core aspect of JavaScript's memory management?",
+    "options": ["Manual memory allocation and deallocation", "Requires explicit garbage collection calls", "Automatic memory allocation and garbage collection", "Uses stack-only memory for objects"],
+    "correct_answer": "Automatic memory allocation and garbage collection",
+    "category": "JavaScript Memory",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 8,
+    "question": "What is the purpose of the `ref` property in a Mongoose schema, as seen in the examples for `postedBy`, `likes`, or `comments.postedBy`?",
+    "options": ["To define the data type of the field", "To set a default value", "To create a reference to another document/model", "To add validation constraints"],
+    "correct_answer": "To create a reference to another document/model",
+    "category": "MongoDB/Mongoose",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 9,
+    "question": "In the MERN skeleton backend, which technology is used to model application data with a schema-based solution over MongoDB?",
+    "options": ["Express", "Node.js", "React", "Mongoose"],
+    "correct_answer": "Mongoose",
+    "category": "MERN Stack Backend",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 10,
+    "question": "What is the primary purpose of the `package.json` file in a Node.js project, according to the sources?",
+    "options": ["To define database schema", "To store metadata, list dependencies, and define run scripts", "To configure web server settings", "To manage user authentication"],
+    "correct_answer": "To store metadata, list dependencies, and define run scripts",
+    "category": "Node.js Project Setup",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 11,
+    "question": "Which HTTP method is used for fetching a list of all users from the backend in the MERN skeleton application?",
+    "options": ["POST", "PUT", "DELETE", "GET"],
+    "correct_answer": "GET",
+    "category": "RESTful API",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 12,
+    "question": "In React, what is the primary purpose of the `render()` method?",
+    "options": ["To fetch data from an API", "To update the component's state", "To return the JSX that defines the component's UI", "To handle user events"],
+    "correct_answer": "To return the JSX that defines the component's UI",
+    "category": "React JS",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 13,
+    "question": "According to the sources, what is the main purpose of the MVC (Model-View-Controller) pattern?",
+    "options": ["To simplify client-side scripting", "To organize web application architecture", "To manage relational databases", "To handle user authentication"],
+    "correct_answer": "To organize web application architecture",
+    "category": "MVC Pattern",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 14,
+    "question": "In Spring MVC, what technology is most commonly used for view templates, as mentioned?",
+    "options": ["HTML", "JSPs with JSTL", "XML", "Velocity templates"],
+    "correct_answer": "JSPs with JSTL",
+    "category": "Spring MVC",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 15,
+    "question": "What is Maven primarily used for, according to the sources?",
+    "options": ["Writing backend code", "Managing the lifecycle of a Java project (build, test, package, etc.)", "Designing database schemas", "Creating user interfaces"],
+    "correct_answer": "Managing the lifecycle of a Java project (build, test, package, etc.)",
+    "category": "Maven",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 16,
+    "question": "Which of the following is NOT a phase in Maven's build lifecycle, as listed in the sources?",
+    "options": ["validate", "compile", "deploy", "debug"],
+    "correct_answer": "debug",
+    "category": "Maven",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 17,
+    "question": "What does SQL stand for?",
+    "options": ["Simple Query Language", "Structured Question Language", "Standard Query Logic", "Structured Query Language"],
+    "correct_answer": "Structured Query Language",
+    "category": "SQL",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 18,
+    "question": "In SQL, which language category is used to define the structure of the database (e.g., CREATE TABLE)?",
+    "options": ["Data Manipulation Language (DML)", "Data Definition Language (DDL)", "Data Query Language (DQL)", "Data Control Language (DCL)"],
+    "correct_answer": "Data Definition Language (DDL)",
+    "category": "SQL",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 19,
+    "question": "What is the primary purpose of Normalization in relational databases, as described in the sources?",
+    "options": ["To increase data redundancy", "To speed up data retrieval by joining tables", "To organize data, minimize duplication, and troubleshoot exceptions like anomalies", "To define user permissions"],
+    "correct_answer": "To organize data, minimize duplication, and troubleshoot exceptions like anomalies",
+    "category": "Database Normalization",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 20,
+    "question": "In Spring JDBC, which class is commonly used to perform database operations like executing queries and updates?",
+    "options": ["DataSource", "JdbcTemplate", "RowMapper", "StudentDAO"],
+    "correct_answer": "JdbcTemplate",
+    "category": "Spring JDBC",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 21,
+    "question": "In the MERN stack, which technology is used for the backend web application framework?",
+    "options": ["MongoDB", "Express", "React", "Node.js"],
+    "correct_answer": "Express",
+    "category": "MERN Stack",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 22,
+    "question": "What authentication mechanism is used in the MERN skeleton application to implement a stateless approach?",
+    "options": ["Sessions", "OAuth", "JSON Web Token (JWT)", "API Keys"],
+    "correct_answer": "JSON Web Token (JWT)",
+    "category": "Authentication",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 23,
+    "question": "When using JWT for authentication, where is the token typically sent in subsequent requests to protected API endpoints?",
+    "options": ["In the request body", "In the URL parameters", "In a cookie", "In the Authorization header"],
+    "correct_answer": "In the Authorization header",
+    "category": "Authentication (JWT)",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 24,
+    "question": "The `userByID` controller function in the MERN social application is updated to use `.populate()` on the Mongoose query. What is the purpose of `.populate()`?",
+    "options": ["To add new fields to the document", "To remove sensitive fields from the document", "To retrieve details of referenced documents in the result", "To filter documents based on a condition"],
+    "correct_answer": "To retrieve details of referenced documents in the result",
+    "category": "Mongoose",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 25,
+    "question": "In the MERN social application's user follow feature, which Mongoose update operator is used to add a user reference to the 'following' or 'followers' arrays?",
+    "options": ["$set", "$push", "$pull", "$addToSet"],
+    "correct_answer": "$push",
+    "category": "MongoDB/Mongoose",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 26,
+    "question": "In the MERN social application's user unfollow feature, which Mongoose update operator is used to remove a user reference from the 'following' or 'followers' arrays?",
+    "options": ["$set", "$push", "$pull", "$remove"],
+    "correct_answer": "$pull",
+    "category": "MongoDB/Mongoose",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 27,
+    "question": "The `findPeople` controller method in MERN Social is designed to find users that the current user is NOT following. Which MongoDB operator is used in the query to achieve this?",
+    "options": ["$in", "$and", "$nin", "$or"],
+    "correct_answer": "$nin",
+    "category": "MongoDB",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 28,
+    "question": "When creating a new post with an image in the MERN social backend, which Node.js module is used to access the fields and image file from the request?",
+    "options": ["express", "mongoose", "formidable", "body-parser"],
+    "correct_answer": "formidable",
+    "category": "Node.js Backend",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 29,
+    "question": "In the MERN Social `Post` schema, how is the created time for a post automatically generated at the time of creation?",
+    "options": ["Using a `Date.now` default value", "Manually set by the client", "Pulled from the server's request timestamp", "Generated by the database implicitly"],
+    "correct_answer": "Using a `Date.now` default value",
+    "category": "MongoDB/Mongoose Schema",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 30,
+    "question": "What is the primary role of the `Newsfeed` component in the MERN Social frontend, as described?",
+    "options": ["To handle user authentication", "To display a list of users to follow", "To aggregate and display posts from followed users and the current user", "To manage user profiles"],
+    "correct_answer": "To aggregate and display posts from followed users and the current user",
+    "category": "React Components",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 31,
+    "question": "In React, how does the `PostList` component receive the list of posts to render?",
+    "options": ["From the component's state", "By fetching data directly from the API", "Through its props", "Using context"],
+    "correct_answer": "Through its props",
+    "category": "React Components",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 32,
+    "question": "What does the `checkLike` function in the MERN Social `Post` component determine?",
+    "options": ["The total number of likes", "If the current user has liked the post", "The user who liked the post last", "If the post is popular"],
+    "correct_answer": "If the current user has liked the post",
+    "category": "React State/Logic",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 33,
+    "question": "Which HTTP method is used for the 'like' and 'unlike' API endpoints in MERN Social?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "correct_answer": "PUT",
+    "category": "RESTful API",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 34,
+    "question": "In the MERN Social `Comments` schema, each comment object contains text, creation time, and a reference to the user who posted the comment. What field name is used for the user reference?",
+    "options": ["author", "user", "postedBy", "creator"],
+    "correct_answer": "postedBy",
+    "category": "MongoDB/Mongoose Schema",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 35,
+    "question": "What is the purpose of the `uncomment` API endpoint in MERN Social?",
+    "options": ["To retrieve comments for a post", "To add a new comment", "To delete a specific comment from a post", "To count the number of comments"],
+    "correct_answer": "To delete a specific comment from a post",
+    "category": "RESTful API",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 36,
+    "question": "In the context of Spring JDBC, what does CRUD stand for?",
+    "options": ["Compile, Run, Update, Deploy", "Create, Read, Update, Delete", "Connect, Retrieve, Use, Display", "Configure, Report, Utilize, Download"],
+    "correct_answer": "Create, Read, Update, Delete",
+    "category": "Database Operations",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 37,
+    "question": "What is the role of a `RowMapper` in Spring JDBC when performing a SELECT query?",
+    "options": ["To execute the SQL query", "To manage database connections", "To map each fetched record from the ResultSet to an object", "To handle transaction management"],
+    "correct_answer": "To map each fetched record from the ResultSet to an object",
+    "category": "Spring JDBC",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 38,
+    "question": "According to the sources, in the context of relational databases, what is the 'cardinality' of a relation (table)?",
+    "options": ["The number of attributes", "The number of tuples (rows)", "The number of relations", "The number of columns"],
+    "correct_answer": "The number of tuples (rows)",
+    "category": "Relational Databases",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 39,
+    "question": "Which anomaly in relational databases occurs when data inconsistency is caused by data redundancy and data updates?",
+    "options": ["Insert Anomaly", "Update Anomaly", "Delete Exception", "Select Anomaly"],
+    "correct_answer": "Update Anomaly",
+    "category": "Database Normalization",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 40,
+    "question": "In the Spring JDBC examples, which file contains the configuration for the DataSource and JdbcTemplate beans?",
+    "options": ["MainApp.java", "StudentDAO.java", "Beans.xml", "StudentJDBCTemplate.java"],
+    "correct_answer": "Beans.xml",
+    "category": "Spring Configuration",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 41,
+    "question": "When handling form inputs in React, what attribute is added to multiple input elements for the handler function to decide what to do based on the value?",
+    "options": ["id", "class", "name", "type"],
+    "correct_answer": "name",
+    "category": "React Forms",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 42,
+    "question": "What is the purpose of the `useNextVariants: true` setting in the Material-UI theme configuration?",
+    "options": ["Enabling responsive variants", "Using updated typography variants", "Configuring color palettes", "Setting default button styles"],
+    "correct_answer": "Using updated typography variants",
+    "category": "Frontend Frameworks (Material-UI)",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 43,
+    "question": "Which React component is used to display a grid of avatars and names, linking to each user's profile in MERN Social?",
+    "options": ["UserList", "ProfileGrid", "FollowGrid", "AvatarList"],
+    "correct_answer": "FollowGrid",
+    "category": "React Components",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 44,
+    "question": "In the MERN skeleton application, what is the purpose of the `jwtSecret` variable defined in `config.js`?",
+    "options": ["Database password", "API key for external service", "Secret key to sign JWTs", "Encryption key for user data"],
+    "correct_answer": "Secret key to sign JWTs",
+    "category": "Backend Configuration",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 45,
+    "question": "Which Mongoose method is used in the user model to generate an encrypted hash from a plain-text password?",
+    "options": ["authenticate", "makeSalt", "encryptPassword", "validatePassword"],
+    "correct_answer": "encryptPassword",
+    "category": "Mongoose Models",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 46,
+    "question": "According to the sources, what does the `@RestController` annotation in Spring indicate?",
+    "options": ["A class that handles database operations", "A class that defines configuration beans", "A class that is a controller and the method return values should be bound to the web response body", "A class that manages views"],
+    "correct_answer": "A class that is a controller and the method return values should be bound to the web response body",
+    "category": "Spring Framework",
+    "difficulty": "medium"
+  },
+  {
+    "question_id": 47,
+    "question": "What is the primary benefit of using AJAX, as mentioned in the sources?",
+    "options": ["To style web pages", "To add animation", "To exchange data with the server without reloading the entire page", "To create database tables"],
+    "correct_answer": "To exchange data with the server without reloading the entire page",
+    "category": "AJAX",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 48,
+    "question": "In JavaScript, what keyword is used to refer to the current object within an object constructor?",
+    "options": ["self", "this", "current", "object"],
+    "correct_answer": "this",
+    "category": "JavaScript Objects",
+    "difficulty": "easy"
+  },
+  {
+    "question_id": 49,
+    "question": "What is the role of `authCtrl.requireSignin` in the backend routes of the MERN social application?",
+    "options": ["To authenticate the user request before proceeding", "To handle database errors", "To parse the request body", "To format the response"],
+    "correct_answer": "To authenticate the user request before proceeding",
+    "category": "Authentication/Backend Middleware",
+    "difficulty": "hard"
+  },
+  {
+    "question_id": 50,
+    "question": "According to the sources, what is the purpose of the `addUpdate` and `removeUpdate` props passed from the `Newsfeed` component to its children?",
+    "options": ["To pass data to the children", "To handle routing", "To provide methods for updating the parent component's state from children", "To define component styles"],
+    "correct_answer": "To provide methods for updating the parent component's state from children",
+    "category": "React State Management",
+    "difficulty": "hard"
+  }
+]

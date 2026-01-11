@@ -1,0 +1,202 @@
+[
+    {
+      "question_id": 1,
+      "question": "What is the primary goal of supervised learning?",
+      "options": ["To discover hidden patterns", "To predict outcomes based on labeled data", "To group similar data points", "To reduce dimensionality"],
+      "correct_answer": "To predict outcomes based on labeled data",
+      "category": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 2,
+      "question": "What is overfitting in machine learning?",
+      "options": ["When a model is too simple", "When a model is too complex and fits the noise", "When a model is not trained enough", "When a model is not tested enough"],
+      "correct_answer": "When a model is too complex and fits the noise",
+      "category": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 3,
+      "question": "What is the purpose of cross-validation?",
+      "options": ["To evaluate model performance on unseen data", "To train a model on the entire dataset", "To select the best features", "To tune hyperparameters"],
+      "correct_answer": "To evaluate model performance on unseen data",
+      "category": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 4,
+      "question": "What is the difference between classification and regression?",
+      "options": ["Classification predicts continuous values, while regression predicts categorical values", "Classification predicts categorical values, while regression predicts continuous values", "Classification is used for clustering, while regression is used for dimensionality reduction", "Classification is used for feature selection, while regression is used for model evaluation"],
+      "correct_answer": "Classification predicts categorical values, while regression predicts continuous values",
+      "category": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 5,
+      "question": "What is the purpose of principal component analysis (PCA)?",
+      "options": ["To select the most informative features", "To reduce dimensionality while retaining most of the information", "To cluster similar data points", "To predict outcomes based on labeled data"],
+      "correct_answer": "To reduce dimensionality while retaining most of the information",
+      "category": "Data Science",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 6,
+      "question": "What is the difference between a Type I error and a Type II error?",
+      "options": ["Type I error is a false positive, while Type II error is a false negative", "Type I error is a false negative, while Type II error is a false positive", "Type I error is a true positive, while Type II error is a true negative", "Type I error is a true negative, while Type II error is a true positive"],
+      "correct_answer": "Type I error is a false positive, while Type II error is a false negative",
+      "category": "Statistics",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 7,
+      "question": "What is the purpose of the F1 score?",
+      "options": ["To evaluate the accuracy of a model", "To evaluate the precision of a model", "To evaluate the recall of a model", "To evaluate the balance between precision and recall"],
+      "correct_answer": "To evaluate the balance between precision and recall",
+      "category": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 8,
+      "question": "What is the difference between bagging and boosting?",
+      "options": ["Bagging is a boosting technique, while boosting is a bagging technique", "Bagging reduces overfitting, while boosting increases overfitting", "Bagging combines multiple models, while boosting combines multiple weak learners", "Bagging is used for classification, while boosting is used for regression"],
+      "correct_answer": "Bagging combines multiple models, while boosting combines multiple weak learners",
+      "category": "Machine Learning",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 9,
+      "question": "What is the purpose of the confusion matrix?",
+      "options": ["To evaluate the performance of a model", "To select the best features", "To tune hyperparameters", "To predict outcomes based on labeled data"],
+      "correct_answer": "To evaluate the performance of a model",
+      "category": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 10,
+      "question": "What is the difference between a parametric and non-parametric model?",
+      "options": ["Parametric models assume a specific distribution, while non-parametric models do not", "Parametric models are used for regression, while non-parametric models are used for classification", "Parametric models are used for small datasets, while non-parametric models are used for large datasets", "Parametric models are more complex, while non-parametric models are simpler"],
+      "correct_answer": "Parametric models assume a specific distribution, while non-parametric models do not",
+      "category": "Machine Learning",
+      "difficulty": "hard"
+    },
+    {
+      "question1_id": 11,
+      "question": "What is the purpose of feature scaling?",
+      "options": ["To reduce dimensionality", "To improve model interpretability", "To ensure features are on the same scale", "To select the most informative features"],
+      "correct_answer": "To ensure features are on the same scale",
+      "category": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 12,
+      "question": "What is the difference between a decision tree and a random forest?",
+      "options": ["A decision tree is a type of random forest", "A random forest is a type of decision tree", "A decision tree is a single model, while a random forest is an ensemble of models", "A decision tree is used for regression, while a random forest is used for classification"],
+      "correct_answer": "A decision tree is a single model, while a random forest is an ensemble of models",
+      "category": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 13,
+      "question": "What is the purpose of the ROC-AUC curve?",
+      "options": ["To evaluate the performance of a model", "To select the best features", "To tune hyperparameters", "To predict outcomes based on labeled data"],
+      "correct_answer": "To evaluate the performance of a model",
+      "category": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 14,
+      "question": "What is the difference between supervised and unsupervised learning?",
+      "options": ["Supervised learning uses labeled data, while unsupervised learning uses unlabeled data", "Supervised learning is used for classification, while unsupervised learning is used for regression", "Supervised learning is used for small datasets, while unsupervised learning is used for large datasets", "Supervised learning is more complex, while unsupervised learning is simpler"],
+      "correct_answer": "Supervised learning uses labeled data, while unsupervised learning uses unlabeled data",
+      "category": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 15,
+      "question": "What is the purpose of clustering?",
+      "options": ["To group similar data points", "To predict outcomes based on labeled data", "To reduce dimensionality", "To evaluate model performance"],
+      "correct_answer": "To group similar data points",
+      "category": "Machine Learning",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 16,
+      "question": "What is the difference between k-means and hierarchical clustering?",
+      "options": ["K-means is a type of hierarchical clustering", "Hierarchical clustering is a type of k-means", "K-means requires a fixed number of clusters, while hierarchical clustering does not", "K-means is used for small datasets, while hierarchical clustering is used for large datasets"],
+      "correct_answer": "K-means requires a fixed number of clusters, while hierarchical clustering does not",
+      "category": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 17,
+      "question": "What is the purpose of the elbow method?",
+      "options": ["To determine the optimal number of clusters", "To evaluate model performance", "To select the best features", "To tune hyperparameters"],
+      "correct_answer": "To determine the optimal number of clusters",
+      "category": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 18,
+      "question": "What is the difference between L1 and L2 regularization?",
+      "options": ["L1 regularization adds a penalty term to the loss function, while L2 regularization does not", "L1 regularization is used for feature selection, while L2 regularization is used for model complexity reduction", "L1 regularization is more robust to outliers, while L2 regularization is more sensitive to outliers", "L1 regularization is used for classification, while L2 regularization is used for regression"],
+      "correct_answer": "L1 regularization is used for feature selection, while L2 regularization is used for model complexity reduction",
+      "category": "Machine Learning",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 19,
+      "question": "What is the purpose of a neural network?",
+      "options": ["To predict outcomes based on labeled data", "To group similar data points", "To reduce dimensionality", "To learn complex patterns in data"],
+      "correct_answer": "To learn complex patterns in data",
+      "category": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 20,
+      "question": "What is the difference between a convolutional neural network (CNN) and a recurrent neural network (RNN)?",
+      "options": ["CNNs are used for sequential data, while RNNs are used for image data", "CNNs are used for image data, while RNNs are used for sequential data", "CNNs are more complex, while RNNs are simpler", "CNNs are used for classification, while RNNs are used for regression"],
+      "correct_answer": "CNNs are used for image data, while RNNs are used for sequential data",
+      "category": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 21,
+      "question": "What is the purpose of transfer learning?",
+      "options": ["To train a model from scratch", "To fine-tune a pre-trained model", "To select the best features", "To evaluate model performance"],
+      "correct_answer": "To fine-tune a pre-trained model",
+      "category": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 22,
+      "question": "What is the difference between batch normalization and dropout?",
+      "options": ["Batch normalization normalizes the input data, while dropout randomly drops out neurons", "Batch normalization reduces overfitting, while dropout increases overfitting", "Batch normalization is used for convolutional layers, while dropout is used for fully connected layers", "Batch normalization is used for small datasets, while dropout is used for large datasets"],
+      "correct_answer": "Batch normalization normalizes the input data, while dropout randomly drops out neurons",
+      "category": "Deep Learning",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 23,
+      "question": "What is the purpose of the activation function?",
+      "options": ["To introduce non-linearity into the model", "To reduce dimensionality", "To select the best features", "To evaluate model performance"],
+      "correct_answer": "To introduce non-linearity into the model",
+      "category": "Deep Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 24,
+      "question": "What is the difference between mean squared error (MSE) and mean absolute error (MAE)?",
+      "options": ["MSE is more sensitive to outliers, while MAE is less sensitive to outliers", "MSE is less sensitive to outliers, while MAE is more sensitive to outliers", "MSE is used for classification, while MAE is used for regression", "MSE is used for small datasets, while MAE is used for large datasets"],
+      "correct_answer": "MSE is more sensitive to outliers, while MAE is less sensitive to outliers",
+      "category": "Machine Learning",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 25,
+      "question": "What is the purpose of feature engineering?",
+      "options": ["To select the most informative features", "To create new features from existing ones", "To reduce dimensionality", "To evaluate model performance"],
+      "correct_answer": "To create new features from existing ones",
+      "category": "Data Science",
+      "difficulty": "medium"
+    }
+  ]

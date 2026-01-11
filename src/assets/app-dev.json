@@ -1,0 +1,202 @@
+[
+    {
+      "question_id": 1,
+      "question": "What is the primary purpose of an API?",
+      "options": ["To interact with a database", "To provide a user interface", "To allow different applications to communicate with each other", "To manage app security"],
+      "correct_answer": "To allow different applications to communicate with each other",
+      "category": "App Development",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 2,
+      "question": "What is the difference between native and cross-platform development?",
+      "options": ["Native development is for web apps, while cross-platform development is for mobile apps", "Native development is for mobile apps, while cross-platform development is for web apps", "Native development is platform-specific, while cross-platform development allows for deployment on multiple platforms", "Native development is faster, while cross-platform development is slower"],
+      "correct_answer": "Native development is platform-specific, while cross-platform development allows for deployment on multiple platforms",
+      "category": "App Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 3,
+      "question": "What is the purpose of a ViewModel in the MVVM architecture?",
+      "options": ["To handle user input", "To manage app data", "To provide a data-binding layer between the view and model", "To handle app navigation"],
+      "correct_answer": "To provide a data-binding layer between the view and model",
+      "category": "App Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 4,
+      "question": "What is the difference between a synchronous and asynchronous request?",
+      "options": ["Synchronous requests block the main thread, while asynchronous requests do not", "Synchronous requests are faster, while asynchronous requests are slower", "Synchronous requests are used for small data transfers, while asynchronous requests are used for large data transfers", "Synchronous requests are more secure, while asynchronous requests are less secure"],
+      "correct_answer": "Synchronous requests block the main thread, while asynchronous requests do not",
+      "category": "App Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 5,
+      "question": "What is the purpose of a JSON Web Token (JWT)?",
+      "options": ["To encrypt data", "To authenticate users", "To authorize access to protected resources", "To validate data integrity"],
+      "correct_answer": "To authenticate users and authorize access to protected resources",
+      "category": "App Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 6,
+      "question": "What is the difference between a fragment and an activity in Android?",
+      "options": ["A fragment is a type of activity", "An activity is a type of fragment", "A fragment is a reusable piece of UI, while an activity is a single screen", "A fragment is used for navigation, while an activity is used for data management"],
+      "correct_answer": "A fragment is a reusable piece of UI, while an activity is a single screen",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 7,
+      "question": "What is the purpose of Core Data in iOS?",
+      "options": ["To manage app data", "To handle user input", "To provide a data-binding layer", "To handle app navigation"],
+      "correct_answer": "To manage app data",
+      "category": "iOS Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 8,
+      "question": "What is the difference between a CocoaPod and a Swift Package?",
+      "options": ["A CocoaPod is a type of Swift Package", "A Swift Package is a type of CocoaPod", "A CocoaPod is a dependency manager for Objective-C, while a Swift Package is a dependency manager for Swift", "A CocoaPod is used for iOS development, while a Swift Package is used for macOS development"],
+      "correct_answer": "A CocoaPod is a dependency manager for Objective-C and Swift, while a Swift Package is a dependency manager for Swift",
+      "category": "iOS Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 9,
+      "question": "What is the purpose of a storyboard in iOS?",
+      "options": ["To design the user interface", "To manage app data", "To handle user input", "To handle app navigation"],
+      "correct_answer": "To design the user interface",
+      "category": "iOS Development",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 10,
+      "question": "What is the difference between a HTTP request and a HTTPS request?",
+      "options": ["HTTP requests are faster, while HTTPS requests are slower", "HTTP requests are more secure, while HTTPS requests are less secure", "HTTP requests are used for small data transfers, while HTTPS requests are used for large data transfers", "HTTP requests are not encrypted, while HTTPS requests are encrypted"],
+      "correct_answer": "HTTP requests are not encrypted, while HTTPS requests are encrypted",
+      "category": "App Development",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 11,
+      "question": "What is the purpose of a RecyclerView in Android?",
+      "options": ["To display a list of items", "To handle user input", "To manage app data", "To handle app navigation"],
+      "correct_answer": "To display a list of items",
+      "category": "Android Development",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 12,
+      "question": "What is the difference between a Service and a BroadcastReceiver in Android?",
+      "options": ["A Service is used for background tasks, while a BroadcastReceiver is used for receiving system events", "A Service is used for receiving system events, while a BroadcastReceiver is used for background tasks", "A Service is used for data management, while a BroadcastReceiver is used for user input", "A Service is used for app navigation, while a BroadcastReceiver is used for data binding"],
+      "correct_answer": "A Service is used for background tasks, while a BroadcastReceiver is used for receiving system events",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 13,
+      "question": "What is the purpose of a Notification in Android?",
+      "options": ["To display a message to the user", "To handle user input", "To manage app data", "To handle app navigation"],
+      "correct_answer": "To display a message to the user",
+      "category": "Android Development",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 14,
+      "question": "What is the difference between a debug build and a release build?",
+      "options": ["A debug build is used for testing, while a release build is used for production", "A debug build is used for production, while a release build is used for testing", "A debug build is optimized for performance, while a release build is not", "A debug build is not optimized for performance, while a release build is"],
+      "correct_answer": "A debug build is used for testing, while a release build is used for production",
+      "category": "App Development",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 15,
+      "question": "What is the purpose of a Bundle in Android?",
+      "options": ["To pass data between activities", "To manage app data", "To handle user input", "To handle app navigation"],
+      "correct_answer": "To pass data between activities",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 16,
+      "question": "What is the difference between a Fragment and a DialogFragment in Android?",
+      "options": ["A Fragment is a reusable piece of UI, while a DialogFragment is a type of Fragment that displays a dialog", "A DialogFragment is a reusable piece of UI, while a Fragment is a type of DialogFragment", "A Fragment is used for app navigation, while a DialogFragment is used for data management", "A Fragment is used for data binding, while a DialogFragment is used for user input"],
+      "correct_answer": "A Fragment is a reusable piece of UI, while a DialogFragment is a type of Fragment that displays a dialog",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 17,
+      "question": "What is the purpose of a ContentProvider in Android?",
+      "options": ["To manage app data", "To handle user input", "To provide a data-binding layer", "To share data between apps"],
+      "correct_answer": "To share data between apps",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 18,
+      "question": "What is the difference between a SQLite database and a Room persistence library?",
+      "options": ["A SQLite database is a type of Room persistence library", "A Room persistence library is a type of SQLite database", "A SQLite database is a low-level database, while a Room persistence library is a high-level abstraction", "A SQLite database is used for small datasets, while a Room persistence library is used for large datasets"],
+      "correct_answer": "A SQLite database is a low-level database, while a Room persistence library is a high-level abstraction",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 19,
+      "question": "What is the purpose of a AsyncTask in Android?",
+      "options": ["To perform background tasks", "To handle user input", "To manage app data", "To handle app navigation"],
+      "correct_answer": "To perform background tasks",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 20,
+      "question": "What is the difference between a Kotlin coroutine and a Java thread?",
+      "options": ["A Kotlin coroutine is a type of Java thread", "A Java thread is a type of Kotlin coroutine", "A Kotlin coroutine is a lightweight concurrency mechanism, while a Java thread is a heavyweight concurrency mechanism", "A Kotlin coroutine is used for background tasks, while a Java thread is used for foreground tasks"],
+      "correct_answer": "A Kotlin coroutine is a lightweight concurrency mechanism, while a Java thread is a heavyweight concurrency mechanism",
+      "category": "Android Development",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 21,
+      "question": "What is the purpose of a ViewBinding in Android?",
+      "options": ["To bind views to data", "To handle user input", "To manage app data", "To handle app navigation"],
+      "correct_answer": "To bind views to data",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 22,
+      "question": "What is the difference between a explicit intent and an implicit intent in Android?",
+      "options": ["An explicit intent specifies the component that should handle the intent, while an implicit intent does not", "An implicit intent specifies the component that should handle the intent, while an explicit intent does not", "An explicit intent is used for app navigation, while an implicit intent is used for data management", "An explicit intent is used for data binding, while an implicit intent is used for user input"],
+      "correct_answer": "An explicit intent specifies the component that should handle the intent, while an implicit intent does not",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 23,
+      "question": "What is the purpose of a PendingIntent in Android?",
+      "options": ["To perform an action on behalf of an app", "To handle user input", "To manage app data", "To handle app navigation"],
+      "correct_answer": "To perform an action on behalf of an app",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 24,
+      "question": "What is the difference between a Activity and a Service in Android?",
+      "options": ["An Activity is used for background tasks, while a Service is used for foreground tasks", "A Service is used for background tasks, while an Activity is used for foreground tasks", "An Activity is used for data management, while a Service is used for user input", "An Activity is used for app navigation, while a Service is used for data binding"],
+      "correct_answer": "A Service is used for background tasks, while an Activity is used for foreground tasks",
+      "category": "Android Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 25,
+      "question": "What is the purpose of a BroadcastReceiver in Android?",
+      "options": ["To receive system events", "To handle user input", "To manage app data", "To handle app navigation"],
+      "correct_answer": "To receive system events",
+      "category": "Android Development",
+      "difficulty": "medium"
+    }
+  ]

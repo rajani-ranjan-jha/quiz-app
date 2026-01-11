@@ -1,0 +1,202 @@
+[
+    {
+      "question_id": 1,
+      "question": "What is the purpose of the `try-except` block?",
+      "options": ["To handle runtime errors", "To skip a block of code", "To execute a block of code if a condition is true", "To define a function"],
+      "correct_answer": "To handle runtime errors",
+      "category": "Error Handling",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 2,
+      "question": "How do you create a decorator in Python?",
+      "options": ["@decorator_name", "def decorator_name:", "class decorator_name:", "decorator_name:"],
+      "correct_answer": "@decorator_name or def decorator_name:",
+      "category": "Functions",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 3,
+      "question": "What is the purpose of the `self` parameter in a class method?",
+      "options": ["To refer to the class itself", "To refer to the instance of the class", "To define a class variable", "To define an instance variable"],
+      "correct_answer": "To refer to the instance of the class",
+      "category": "Object-Oriented Programming",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 4,
+      "question": "How do you sort a list in Python?",
+      "options": ["my_list.sort()", "my_list.sorted()", "sort(my_list)", "sorted(my_list)"],
+      "correct_answer": "my_list.sort() or sorted(my_list)",
+      "category": "Lists",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 5,
+      "question": "What is the purpose of the `super()` function?",
+      "options": ["To refer to the parent class", "To refer to the child class", "To define a class variable", "To define an instance variable"],
+      "correct_answer": "To refer to the parent class",
+      "category": "Object-Oriented Programming",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 6,
+      "question": "How do you create a thread in Python?",
+      "options": ["threading.Thread()", "thread.Thread()", "Thread()", "threading.thread()"],
+      "correct_answer": "threading.Thread()",
+      "category": "Concurrency",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 7,
+      "question": "What is the purpose of the `lambda` function?",
+      "options": ["To define a small anonymous function", "To define a class", "To import a module", "To exit the program"],
+      "correct_answer": "To define a small anonymous function",
+      "category": "Functions",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 8,
+      "question": "How do you use the `requests` library?",
+      "options": ["To send HTTP requests", "To parse HTML documents", "To render web pages", "To scrape websites"],
+      "correct_answer": "To send HTTP requests",
+      "category": "Web Development",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 9,
+      "question": "What is the purpose of the `join()` method in threading?",
+      "options": ["To start a thread", "To wait for a thread to finish", "To pause a thread", "To resume a thread"],
+      "correct_answer": "To wait for a thread to finish",
+      "category": "Concurrency",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 10,
+      "question": "How do you create a Flask application?",
+      "options": ["app = Flask(__name__)", "app = flask.Flask()", "Flask app = new Flask()", "app = new Flask(__name__)"],
+      "correct_answer": "app = Flask(__name__)",
+      "category": "Web Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 11,
+      "question": "What is the purpose of the `map()` function?",
+      "options": ["To apply a function to each item in an input", "To filter items from a list", "To reduce a list to a single value", "To sort a list"],
+      "correct_answer": "To apply a function to each item in an input",
+      "category": "Functions",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 12,
+      "question": "How do you handle form data in Flask?",
+      "options": ["Using the `request` object", "Using the `form` object", "Using the `data` object", "Using the `input` object"],
+      "correct_answer": "Using the `request` object",
+      "category": "Web Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 13,
+      "question": "What is the purpose of the `filter()` function?",
+      "options": ["To apply a function to each item in an input", "To filter items from a list", "To reduce a list to a single value", "To sort a list"],
+      "correct_answer": "To filter items from a list",
+      "category": "Functions",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 14,
+      "question": "How do you commit changes to a database?",
+      "options": ["Using the `commit()` method", "Using the `rollback()` method", "Using the `close()` method", "Using the `execute()` method"],
+      "correct_answer": "Using the `commit()` method",
+      "category": "Database",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 15,
+      "question": "What is the purpose of the `reduce()` function?",
+      "options": ["To apply a function to each item in an input", "To filter items from a list", "To reduce a list to a single value", "To sort a list"],
+      "correct_answer": "To reduce a list to a single value",
+      "category": "Functions",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 16,
+      "question": "How do you create a dictionary in Python?",
+      "options": ["my_dict = ()", "my_dict = []", "my_dict = {}", "my_dict = <>"],
+      "correct_answer": "my_dict = {}",
+      "category": "Basics",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 17,
+      "question": "What is the purpose of the `yield` keyword?",
+      "options": ["To define a generator", "To define a decorator", "To define a class", "To define a function"],
+      "correct_answer": "To define a generator",
+      "category": "Functions",
+      "difficulty": "hard"
+    },
+    {
+      "question_id": 18,
+      "question": "How do you use the `with` statement?",
+      "options": ["To open a file", "To define a class", "To define a function", "To handle exceptions"],
+      "correct_answer": "To open a file",
+      "category": "File Handling",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 19,
+      "question": "What is the purpose of the `url_for()` function?",
+      "options": ["To generate a URL for a route", "To redirect to a different URL", "To render a template", "To handle exceptions"],
+      "correct_answer": "To generate a URL for a route",
+      "category": "Web Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 20,
+      "question": "How do you close a database connection?",
+      "options": ["Using the `close()` method", "Using the `commit()` method", "Using the `rollback()` method", "Using the `execute()` method"],
+      "correct_answer": "Using the `close()` method",
+      "category": "Database",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 21,
+      "question": "What is the purpose of the `pandas` library?",
+      "options": ["To work with data structures and data analysis", "To work with web development", "To work with machine learning", "To work with databases"],
+      "correct_answer": "To work with data structures and data analysis",
+      "category": "Data Analysis",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 22,
+      "question": "How do you create a DataFrame in pandas?",
+      "options": ["Using the `DataFrame()` constructor", "Using the `Series()` constructor", "Using the `read_csv()` function", "Using the `to_csv()` function"],
+      "correct_answer": "Using the `DataFrame()` constructor",
+      "category": "Data Analysis",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 23,
+      "question": "What is the purpose of the `sqlite3` module?",
+      "options": ["To connect to a SQLite database", "To connect to a MySQL database", "To connect to a PostgreSQL database", "To connect to a MongoDB database"],
+      "correct_answer": "To connect to a SQLite database",
+      "category": "Database",
+      "difficulty": "easy"
+    },
+    {
+      "question_id": 24,
+      "question": "How do you render a template in Flask?",
+      "options": ["render_template()", "template.render()", "render()", "template()"],
+      "correct_answer": "render_template()",
+      "category": "Web Development",
+      "difficulty": "medium"
+    },
+    {
+      "question_id": 25,
+      "question": "What is the purpose of the `@app.route()` decorator?",
+      "options": ["To define a route for a Flask application", "To define a function", "To define a class", "To handle exceptions"],
+      "correct_answer": "To define a route for a Flask application",
+      "category": "Web Development",
+      "difficulty": "medium"
+    }
+  ]
